@@ -38,8 +38,8 @@ The [full showcase](https://zms-labs.github.io/showcase/) connects selected proj
 | [**Gridiron**](https://zms-labs.github.io/showcase/case-studies/gridiron/) | Event-led commentary research, a synthetic replay, and a reviewed source download |
 | [**Krewcible**](https://zms-labs.github.io/showcase/case-studies/krewcible/) | A creative checkpoint editor with authentic component captures, a captioned recording, and visible, editable choices |
 | [**Fleet Orchestrator**](https://zms-labs.github.io/showcase/case-studies/fleet-orchestrator/) | Agent coordination with authentic cockpit and glyph design, a Surface Bridge explanation and a tested review gate |
-| [**SaveBench**](https://zms-labs.github.io/showcase/case-studies/savebench/) | Evaluation design: a historical instrument-control failure, repaired measurement, and a valid negative result |
-| [**Neuraxic**](https://zms-labs.github.io/showcase/case-studies/neuraxic/) | Author-controlled story continuity, with tested branch visibility and explicit canon boundaries |
+| [**SaveBench**](https://zms-labs.github.io/showcase/case-studies/savebench/) | AI factory design: original challenge/comparison UX, a synthetic navigation recording and a separate historical measurement case |
+| [**Neuraxic**](https://zms-labs.github.io/showcase/case-studies/neuraxic/) | An idea-first authoring workspace with original interface views, fictional navigation and separate continuity evidence |
 | [**Enaction**](https://zms-labs.github.io/showcase/case-studies/enaction/) | Explicit fictional-role selection, memory attribution and tested protection of the operator record |
 | [**ZMS Canvas**](https://zms-labs.github.io/showcase/case-studies/zms-canvas/) | Notebook recovery and conflicting revisions in a public PenEcho fork, with upstream attribution |
 | [**Poiesis**](https://zms-labs.github.io/showcase/case-studies/poiesis/) | Returned-artifact identity, explicit retention and prompt-custody boundaries, backed by eight focused tests |
