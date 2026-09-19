@@ -42,8 +42,9 @@ The [full showcase](https://zms-labs.github.io/showcase/) connects selected proj
 | [**Neuraxic**](https://zms-labs.github.io/showcase/case-studies/neuraxic/) | Author-controlled story continuity, with tested branch visibility and explicit canon boundaries |
 | [**Enaction**](https://zms-labs.github.io/showcase/case-studies/enaction/) | Explicit fictional-role selection, memory attribution and tested protection of the operator record |
 | [**ZMS Canvas**](https://zms-labs.github.io/showcase/case-studies/zms-canvas/) | Notebook recovery and conflicting revisions in a public PenEcho fork, with upstream attribution |
+| [**Poiesis**](https://zms-labs.github.io/showcase/case-studies/poiesis/) | Returned-artifact identity, explicit retention and prompt-custody boundaries, backed by eight focused tests |
 
-The case studies distinguish prototypes, component studies, and observed results. Steno, Krewcible, Fleet Orchestrator, SaveBench, Neuraxic and Enaction share selected public artifacts while their application source remains private. [Evidence and attribution](https://zms-labs.github.io/showcase/evidence.html) explain the scope and AI assistance behind the work.
+The case studies distinguish prototypes, component studies, and observed results. Steno, Krewcible, Fleet Orchestrator, SaveBench, Neuraxic, Enaction and Poiesis share selected public artifacts while their application source remains private. [Evidence and attribution](https://zms-labs.github.io/showcase/evidence.html) explain the scope and AI assistance behind the work.
 
 [About this work](https://zms-labs.github.io/showcase/about.html) explains direction and assistance. [Supporting work](https://zms-labs.github.io/showcase/more-work.html) connects public adaptations, documentation and upstream provenance.
 
