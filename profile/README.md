@@ -9,7 +9,7 @@
 
 ZMS Labs explores how software and AI can help people investigate problems, make informed decisions, and carry useful work through to completion. The work connects practical implementation with the reasoning, documentation, and evidence needed to understand it.
 
-[**Explore Epistemic Skills**](https://github.com/ZMS-Labs/epistemic-skills#readme) · [**Read the showcase**](https://github.com/ZMS-Labs/showcase#readme) · [**Browse public projects**](https://github.com/orgs/ZMS-Labs/repositories?type=public)
+[**Explore the full showcase →**](https://zms-labs.github.io/showcase/) · [**Inspect the source**](https://github.com/ZMS-Labs/showcase#readme) · [**Browse public repositories**](https://github.com/orgs/ZMS-Labs/repositories?type=public)
 
 ## Areas of exploration
 
@@ -27,9 +27,18 @@ Reusable methods for AI agents to investigate failures, examine consequential de
 
 Start with the [README](https://github.com/ZMS-Labs/epistemic-skills#readme), see a [worked example](https://github.com/ZMS-Labs/epistemic-skills/wiki/Workflow-Recipes), or inspect the [design rationale](https://github.com/ZMS-Labs/epistemic-skills/wiki/Design-Rationale) and [evaluation evidence](https://github.com/ZMS-Labs/epistemic-skills/wiki/Testing-and-Evaluations).
 
-### A closer look at the work
+### Product design, implementation, and evidence
 
-The [ZMS Labs showcase](https://github.com/ZMS-Labs/showcase) connects project artifacts to the engineering choices behind them. It is a useful starting point for readers who want to understand the approach before exploring the source.
+The [full showcase](https://zms-labs.github.io/showcase/) connects four projects to the questions, tradeoffs, and artifacts behind them.
+
+| Project | Explore |
+|---|---|
+| [**Steno**](https://zms-labs.github.io/showcase/case-studies/steno/) | An experimental contract workstation: an authentic archived prototype with fictional content and separate recorded drafting checks |
+| [**Epistemic Skills**](https://zms-labs.github.io/showcase/case-studies/epistemic-skills/) | Public reasoning methods, worked examples, and evaluation boundaries |
+| [**Gridiron**](https://zms-labs.github.io/showcase/case-studies/gridiron/) | Event-led commentary research, a synthetic replay, and a reviewed source download |
+| [**Krewcible**](https://zms-labs.github.io/showcase/case-studies/krewcible/) | A creative checkpoint editor with authentic component captures and visible, editable choices |
+
+The case studies distinguish prototypes, component studies, and observed results. Steno and Krewcible share selected public artifacts while their application source remains private. [Evidence and attribution](https://zms-labs.github.io/showcase/evidence.html) explain the scope and AI assistance behind the work.
 
 ## What to expect
 
