@@ -1,0 +1,8 @@
+{
+  "name": "ZMS Labs secret scan",
+  "description": "Scan Git history for potential secrets with pinned Gitleaks and redacted output. No external service credential is required.",
+  "iconName": "octicon shield-lock",
+  "categories": [
+    "Code Scanning"
+  ]
+}
