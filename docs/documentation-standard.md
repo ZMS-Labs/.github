@@ -49,9 +49,13 @@ A decision to change visibility is separate from a documentation improvement. Re
 
 ## Use visuals to explain
 
-Maintain the project's identity. Favor diagrams, annotated examples, or screenshots that help a reader understand the work. Supply text alternatives and readable narrow-screen layouts. Preserve attribution and licensing, and inspect screenshots and metadata for unintended disclosures.
+Visual communication is part of documentation correctness. Every new or changed visual heading, Mermaid graph, flowchart, sequence, chart, badge, screenshot and illustration must have a clear purpose, excellent project-appropriate presentation, source-backed meaning and an inspected rendered result.
 
-Use badges only when they point to meaningful, maintained information. Avoid decorative scores, unsupported maturity labels, and claims of universal reliability.
+Follow the [visual documentation review standard](visual-documentation-review.md). It requires checking the meaning of labels, arrows, ordering, grouping, color and status; distinguishing concepts, plans, implementation and observed results; and reviewing the intended rendering, text equivalents, narrow-screen readability and supported themes. Preserve authentic product demonstrations and each project's own design authority. Use generated artwork for clearly identified illustrations, not fabricated evidence or exact technical diagrams.
+
+Record the material sources, checks and remaining limits in the existing review or design record. One bounded review and affected rechecks are sufficient; no mandatory independent-model panel is introduced. A passing Mermaid render establishes syntax/rendering, not the truth of the diagram. Existing historical visuals are not certified merely because the repository adopts this standard.
+
+Use badges only when they point to meaningful, maintained information. Avoid decorative scores, unsupported maturity labels and claims of universal reliability. The quality bar applies to private as well as public documentation; privacy and publication boundaries remain unchanged.
 
 ## Verify and maintain
 

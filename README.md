@@ -20,6 +20,7 @@ This repository contains the [ZMS Labs organization profile](profile/README.md) 
 |---|---|
 | [Organization profile](profile/README.md) | Introduction and selected public work |
 | [Documentation standard](docs/documentation-standard.md) | A consistent reading experience across different kinds of projects |
+| [Visual documentation review](docs/visual-documentation-review.md) | Accurate diagrams, authentic captures, excellent presentation and scoped review |
 | [Contributing](CONTRIBUTING.md) | Shared contribution guidance where a project supplies no override |
 | [Support](SUPPORT.md) | Where to ask a useful, appropriately scoped question |
 | [Workflow templates](workflow-templates/README.md) | Portable starter workflows offered through GitHub |
