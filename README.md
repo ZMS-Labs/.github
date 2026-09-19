@@ -1,5 +1,8 @@
 # ZMS Labs public profile and shared guidance
 
+<details>
+<summary>Repository status</summary>
+
 <!-- ZMS-ESTATE:BEGIN -->
 
 > **Obligation:** `none` · **Stage:** `building` · **Load-bearing:** `unknown — not yet observed`
@@ -8,6 +11,8 @@
 > Estate authority: the ZMS fleet governance registry (private), `governance/estate.yaml`.
 
 <!-- ZMS-ESTATE:END -->
+
+</details>
 
 This repository contains the [ZMS Labs organization profile](profile/README.md) and public contribution guidance. The profile appears on the organization's GitHub Overview page.
 
