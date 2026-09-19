@@ -29,16 +29,19 @@ Start with the [README](https://github.com/ZMS-Labs/epistemic-skills#readme), se
 
 ### Product design, implementation, and evidence
 
-The [full showcase](https://zms-labs.github.io/showcase/) connects four projects to the questions, tradeoffs, and artifacts behind them.
+The [full showcase](https://zms-labs.github.io/showcase/) connects five projects to the questions, tradeoffs, and artifacts behind them.
 
 | Project | Explore |
 |---|---|
 | [**Steno**](https://zms-labs.github.io/showcase/case-studies/steno/) | An experimental contract workstation: an authentic archived prototype with fictional content and separate recorded drafting checks |
 | [**Epistemic Skills**](https://zms-labs.github.io/showcase/case-studies/epistemic-skills/) | Public reasoning methods, worked examples, and evaluation boundaries |
 | [**Gridiron**](https://zms-labs.github.io/showcase/case-studies/gridiron/) | Event-led commentary research, a synthetic replay, and a reviewed source download |
-| [**Krewcible**](https://zms-labs.github.io/showcase/case-studies/krewcible/) | A creative checkpoint editor with authentic component captures and visible, editable choices |
+| [**Krewcible**](https://zms-labs.github.io/showcase/case-studies/krewcible/) | A creative checkpoint editor with authentic component captures, a captioned recording, and visible, editable choices |
+| [**Fleet Orchestrator**](https://zms-labs.github.io/showcase/case-studies/fleet-orchestrator/) | A tested review gate, with three isolated control-plane tests and an interactive explanation of eligibility and blocking |
 
-The case studies distinguish prototypes, component studies, and observed results. Steno and Krewcible share selected public artifacts while their application source remains private. [Evidence and attribution](https://zms-labs.github.io/showcase/evidence.html) explain the scope and AI assistance behind the work.
+The case studies distinguish prototypes, component studies, and observed results. Steno, Krewcible and Fleet share selected public artifacts while their application source remains private. [Evidence and attribution](https://zms-labs.github.io/showcase/evidence.html) explain the scope and AI assistance behind the work.
+
+[About this work](https://zms-labs.github.io/showcase/about.html) explains direction and assistance. [Supporting work](https://zms-labs.github.io/showcase/more-work.html) connects public adaptations, documentation and upstream provenance.
 
 ## What to expect
 
