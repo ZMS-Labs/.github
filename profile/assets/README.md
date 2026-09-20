@@ -24,6 +24,8 @@ SVG lettering is converted to paths. Reading the README requires no font install
 | `candidate-2-zms-lockup` | A square "ZMS" lockup: Archivo 760 outlined paths on ink, one orange square seated on the baseline |
 | `candidate-3-masthead-crop` | A crop-style echo of the masthead: ink field, one muted connector line `#68848f` broken by a small orange square |
 
+Candidate 2, the ZMS lettermark, was selected and applied as the organization avatar on 2026-09-20. Its explicit initials identify the organization while its Archivo typography and ink, warm-white and orange palette match the mastheads. The alternatives remain here as design history: candidate 1 reads clearly at small sizes but is more generic; candidate 3 echoes the masthead but is too abstract to identify the organization on its own.
+
 Each mark was rendered and inspected at 32 px for avatar-size legibility. Contrast against the ink field: warm white 13.1:1, orange 7.9:1, connector 3.7:1.
 
 Regenerate the SVGs and PNGs from `profile/assets/avatar-candidates/generate_avatar_candidates.py` (requires `fonttools`; the PNG pass additionally requires Playwright with its Chromium browser):
@@ -34,4 +36,4 @@ python profile/assets/avatar-candidates/generate_avatar_candidates.py
 
 Adding `--preview DIR` also writes 32 px renders, plus a magnified view of those exact pixels, for legibility checks.
 
-Choosing a candidate does not change anything by itself: the operator must upload the chosen PNG in GitHub organization settings (Settings → Profile → upload picture). An agent cannot perform that upload.
+Changing these repository assets does not update the GitHub organization avatar. The selected PNG must be uploaded separately in GitHub organization settings. An authorized agent with authenticated access can perform that upload through the UI; this generator only creates the image files.
