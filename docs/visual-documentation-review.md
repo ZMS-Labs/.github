@@ -4,6 +4,8 @@ This is the shared quality standard for ZMS Labs documentation: clear meaning, e
 
 The same quality bar applies across projects; product-local design authority still determines identity, typography, tokens and visual language. An established product is not a blank canvas. A simple, precise diagram can satisfy this standard better than an elaborate illustration.
 
+Obligations in this standard fall into two tiers. **Always-binding obligations** apply regardless of audience: semantic accuracy, the publication boundary and privacy, and authenticity of captures. **Audience-scaled obligations** — presentation polish, contrast measurement, and record-keeping depth — carry full rigor for public-facing documentation and a proportionate level for private working notes; where a later section states one of these in full, that statement is the public-facing bar.
+
 ## Start with what the reader should understand
 
 Before making or revising a visual, state its purpose in one sentence. Identify its audience, the question it answers, its authoritative source, the state/date/revision represented, and where it will render. Describe the intended takeaway without relying on the caption to excuse a misleading picture.
@@ -26,7 +28,7 @@ Keep exact schematics and measured charts editable and reproducible. Image gener
 
 ## Review semantics, not just syntax
 
-For each material visual, inspect these concrete assertions:
+For each material visual — a visual whose meaning, if wrong, could change a reader's conclusion or decision — inspect these concrete assertions:
 
 - **Nodes and labels:** terminology matches the authoritative source; no stale names, nonexistent capabilities or ambiguous abbreviations.
 - **Arrows:** distinguish data transfer, control, time, dependency, causation and association. Do not use a directional arrow when only association is known. Label mixed edge meanings and ambiguous direction.

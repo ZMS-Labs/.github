@@ -13,3 +13,25 @@ The small SVG drawing helper is adapted from Epistemic Skills' GPL-3.0 [document
 The bundled, unmodified Archivo font is distributed under the [SIL Open Font License](fonts/OFL.txt), separately from the repository license. Its source is [Google Fonts / Archivo](https://github.com/google/fonts/tree/main/ofl/archivo), and its SHA-256 is `0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053`.
 
 SVG lettering is converted to paths. Reading the README requires no font installation or remote font request.
+
+## Organization avatar candidates
+
+`avatar-candidates/` holds three candidate marks for the GitHub organization avatar, derived from the masthead vocabulary above — ink `#152c35`, warm white `#f5f3ed`, accent orange `#ffac70`, Archivo weight 760. Each candidate is a 512x512 SVG with a rasterized 512x512 PNG, because GitHub avatar upload requires a raster format:
+
+| Candidate | Mark |
+|---|---|
+| `candidate-1-squares` | The 2x2 squares glyph: three warm-white rounded squares and one orange, generous margins |
+| `candidate-2-zms-lockup` | A square "ZMS" lockup: Archivo 760 outlined paths on ink, one orange square seated on the baseline |
+| `candidate-3-masthead-crop` | A crop-style echo of the masthead: ink field, one muted connector line `#68848f` broken by a small orange square |
+
+Each mark was rendered and inspected at 32 px for avatar-size legibility. Contrast against the ink field: warm white 13.1:1, orange 7.9:1, connector 3.7:1.
+
+Regenerate the SVGs and PNGs from `profile/assets/avatar-candidates/generate_avatar_candidates.py` (requires `fonttools`; the PNG pass additionally requires Playwright with its Chromium browser):
+
+```bash
+python profile/assets/avatar-candidates/generate_avatar_candidates.py
+```
+
+Adding `--preview DIR` also writes 32 px renders, plus a magnified view of those exact pixels, for legibility checks.
+
+Choosing a candidate does not change anything by itself: the operator must upload the chosen PNG in GitHub organization settings (Settings → Profile → upload picture). An agent cannot perform that upload.

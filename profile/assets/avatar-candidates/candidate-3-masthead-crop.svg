@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">ZMS Labs avatar candidate 3 — masthead crop</title>
+<desc id="desc">A crop-style mark echoing the masthead connectors: ink field, one muted connector line broken by a small accent orange square at the center.</desc>
+<rect width="512" height="512" fill="#152c35"/>
+<path d="M112 256 H172" fill="none" stroke="#68848f" stroke-width="36" />
+<path d="M340 256 H400" fill="none" stroke="#68848f" stroke-width="36" />
+<rect x="204.0" y="204.0" width="104" height="104" rx="0" fill="#ffac70"/>
+</svg>

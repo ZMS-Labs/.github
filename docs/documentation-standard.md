@@ -49,7 +49,7 @@ A decision to change visibility is separate from a documentation improvement. Re
 
 ## Use visuals to explain
 
-Visual communication is part of documentation correctness. Every new or changed visual heading, Mermaid graph, flowchart, sequence, chart, badge, screenshot and illustration must have a clear purpose, excellent project-appropriate presentation, source-backed meaning and an inspected rendered result.
+Visual communication is part of documentation correctness. Every new or changed visual heading (a heading rendered as an image or banner, not Markdown text), Mermaid graph, flowchart, sequence, chart, badge, screenshot and illustration must have a clear purpose, legibility at destination widths and themes, consistency with the project's own identity, source-backed meaning and an inspected rendered result.
 
 Follow the [visual documentation review standard](visual-documentation-review.md). It requires checking the meaning of labels, arrows, ordering, grouping, color and status; distinguishing concepts, plans, implementation and observed results; and reviewing the intended rendering, text equivalents, narrow-screen readability and supported themes. Preserve authentic product demonstrations and each project's own design authority. Use generated artwork for clearly identified illustrations, not fabricated evidence or exact technical diagrams.
 
