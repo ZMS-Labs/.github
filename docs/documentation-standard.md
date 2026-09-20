@@ -39,6 +39,14 @@ An empty or archived repository may have a recorded documentation exception inst
 - When an answer is unknown, say what is known and where verification belongs.
 - A recent edit date is not evidence that every statement was revalidated.
 
+## Written voice
+
+Identity-bearing surfaces (the organization profile, repository README openings, the portfolio About text, featured-project leads) are written or edited by the operator in their own words. Assistance may draft them; the operator's phrasing is what ships.
+
+- Each such surface carries at least one sentence only this project could produce: a concrete memory, number, decision, or failure. A sentence that could be pasted onto any other project gets rewritten.
+- Vary headline forms; not every heading is a balanced couplet, and a plain single-line title is fine. Do not repeat one qualification more than once per page; the status table or evidence section carries it.
+- Give a coinage a one-line gloss at first use, on the entry surface that introduces it.
+
 ## Respect the publication boundary
 
 Public documentation must stand on public, intentionally disclosed information. Do not expose private project names, internal links, machine identities, inventories, network topology, credentials, personal data, or confidential operational details. Prefer generalized explanations and synthetic examples.
@@ -62,3 +70,7 @@ Use badges only when they point to meaningful, maintained information. Avoid dec
 For a documentation change, check relative links and anchors, confirm external references where needed, run whitespace checks, review the diff for unintended information, and inspect rendered layouts when they change. Run relevant existing checks; a prose edit does not require inventing a test framework.
 
 Update documentation with the behavior it describes. A short, accurate guide is more useful than a comprehensive-looking one that cannot be trusted.
+
+## Review cadence
+
+Give public-facing pull requests one automated-reviewer round, and answer its findings in-thread before merge: fixed, or explicitly disagreed with. Never resolve a finding without a reply. The public surfaces also get a periodic external critical review, roughly quarterly, reusing the showcase review packet pattern and its existing rubric.
