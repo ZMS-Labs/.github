@@ -5,7 +5,7 @@
 
 # ZMS Labs
 
-**Independent work in AI-assisted software, reasoning methods, and tools for complex work.**
+**ZMS Labs is the personal workshop of Zach Stern — independent work in AI-assisted software, reasoning methods, and tools for complex work.**
 
 ZMS Labs explores how software and AI can help people investigate problems, make informed decisions, and carry useful work through to completion. The work connects practical implementation with the reasoning, documentation, and evidence needed to understand it.
 
@@ -33,16 +33,16 @@ The [full showcase](https://zms-labs.github.io/showcase/) connects selected proj
 
 | Project | Explore |
 |---|---|
-| [**Steno**](https://zms-labs.github.io/showcase/case-studies/steno/) | An experimental contract workstation: an archived workspace prototype, an implemented Hallmark emblem system and separate recorded drafting checks |
-| [**Epistemic Skills**](https://zms-labs.github.io/showcase/case-studies/epistemic-skills/) | Public reasoning methods, worked examples, and evaluation boundaries |
-| [**Gridiron**](https://zms-labs.github.io/showcase/case-studies/gridiron/) | Event-led commentary research, a synthetic replay, and a reviewed source download |
+| [**Steno**](https://zms-labs.github.io/showcase/case-studies/steno/) | An experimental contract workstation: an archived workspace prototype, an implemented assayer-style evidence emblem system and separate recorded drafting checks |
+| [**Epistemic Skills**](https://zms-labs.github.io/showcase/case-studies/epistemic-skills/) | Public reasoning methods with worked examples and evaluation boundaries |
+| [**Gridiron**](https://zms-labs.github.io/showcase/case-studies/gridiron/) | An event-led commentary research application: a synthetic replay and a reviewed source download |
 | [**Krewcible**](https://zms-labs.github.io/showcase/case-studies/krewcible/) | A creative checkpoint editor with authentic component captures, a captioned recording, and visible, editable choices |
-| [**Fleet Orchestrator**](https://zms-labs.github.io/showcase/case-studies/fleet-orchestrator/) | Agent coordination with authentic cockpit and glyph design, a Surface Bridge explanation and a tested review gate |
-| [**SaveBench**](https://zms-labs.github.io/showcase/case-studies/savebench/) | AI factory design: original challenge/comparison UX, a synthetic navigation recording and a separate historical measurement case |
-| [**Neuraxic**](https://zms-labs.github.io/showcase/case-studies/neuraxic/) | An idea-first authoring workspace with original interface views, fictional navigation and separate continuity evidence |
-| [**Enaction**](https://zms-labs.github.io/showcase/case-studies/enaction/) | Explicit fictional-role selection, memory attribution and tested protection of the operator record |
+| [**Fleet Orchestrator**](https://zms-labs.github.io/showcase/case-studies/fleet-orchestrator/) | An operator workspace for coordinating agents: authentic cockpit and glyph design, a coordination-to-runtime explanation and a tested review gate |
+| [**SaveBench**](https://zms-labs.github.io/showcase/case-studies/savebench/) | Game-world factory design and measurement: an original challenge and comparison prototype, a synthetic navigation recording and a separate historical measurement case |
+| [**Neuraxic**](https://zms-labs.github.io/showcase/case-studies/neuraxic/) | An idea-first authoring workspace: original interface views and fictional navigation |
+| [**Enaction**](https://zms-labs.github.io/showcase/case-studies/enaction/) | An exploration of role and memory boundaries: explicit fictional-role selection and tested protection of the project owner's record |
 | [**ZMS Canvas**](https://zms-labs.github.io/showcase/case-studies/zms-canvas/) | Notebook recovery and conflicting revisions in a public PenEcho fork, with upstream attribution |
-| [**Poiesis**](https://zms-labs.github.io/showcase/case-studies/poiesis/) | Returned-artifact identity, explicit retention and prompt-custody boundaries, backed by eight focused tests |
+| [**Poiesis**](https://zms-labs.github.io/showcase/case-studies/poiesis/) | A shared generation service: returned-artifact identity, explicit retention and prompt-custody boundaries, backed by eight focused tests |
 
 The case studies distinguish prototypes, component studies, and observed results. Steno, Krewcible, Fleet Orchestrator, SaveBench, Neuraxic, Enaction and Poiesis share selected public artifacts while their application source remains private. [Evidence and attribution](https://zms-labs.github.io/showcase/evidence.html) explain the scope and AI assistance behind the work.
 

@@ -8,7 +8,7 @@
 > **Obligation:** `none` · **Stage:** `building` · **Load-bearing:** `unknown — not yet observed`
 > **Purpose:** `configuration`
 > **Canonical for:** organization-public-profile
-> Estate authority: the ZMS fleet governance registry (private), `governance/estate.yaml`.
+> Stage: building — profile and shared guidance under active development.
 
 <!-- ZMS-ESTATE:END -->
 
