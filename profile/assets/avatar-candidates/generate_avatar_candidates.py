@@ -7,9 +7,10 @@ and rasterizes each to a 512x512 PNG, because GitHub org avatars must be
 uploaded in a raster format. Requires fonttools for the SVGs and Playwright
 (headless Chromium) for the PNGs.
 
-Review context: the live org avatar is a beveled hex badge that does not
-belong to this identity system. The operator uploads the chosen PNG by hand
-in GitHub organization settings; this script only produces candidates.
+Candidate 2, the ZMS lettermark, was selected and applied as the organization
+avatar on 2026-09-20. This script only produces the image files; changing
+repository assets does not update the GitHub organization setting. An
+authorized agent with authenticated UI access can upload the selected PNG.
 
 --preview DIR additionally renders each mark at 32 px (plus a pixelated 8x
 view of that 32 px raster) so legibility at avatar sizes can be inspected.
