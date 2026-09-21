@@ -5,57 +5,57 @@
 
 # ZMS Labs
 
-**ZMS Labs is the personal workshop of Zach Stern — independent work in AI-assisted software, reasoning methods, and tools for complex work.**
+ZMS Labs is the personal workshop of Zach Stern: independent work in AI-assisted software, reasoning methods, and tools for complex work.
 
-ZMS Labs explores how software and AI can help people investigate problems, make informed decisions, and carry useful work through to completion. The work connects practical implementation with the reasoning, documentation, and evidence needed to understand it.
+The work explores how software and AI can help people investigate problems, make informed decisions, and carry useful work through to completion. It pairs practical implementation with the reasoning, documentation, and evidence needed to understand it.
 
-[**Explore the full showcase →**](https://zms-labs.github.io/showcase/) · [**Inspect the source**](https://github.com/ZMS-Labs/showcase#readme) · [**Browse public repositories**](https://github.com/orgs/ZMS-Labs/repositories?type=public)
+[Explore the full showcase](https://zms-labs.github.io/showcase/) · [Inspect the source](https://github.com/ZMS-Labs/showcase#readme) · [Browse public repositories](https://github.com/orgs/ZMS-Labs/repositories?type=public)
 
 ## Areas of exploration
 
 | Focus | The question behind the work |
 |---|---|
-| **Reasoning and decision support** | How can an agent investigate carefully, compare alternatives, and recognize the limits of its evidence? |
-| **AI-assisted development** | How do useful methods become implementation, verification, and continuity across a longer task? |
-| **Tools for complex work** | How can interfaces and reusable building blocks make information, choices, and outcomes easier to understand? |
+| Reasoning and decision support | How can an agent investigate carefully, compare alternatives, and recognize the limits of its evidence? |
+| AI-assisted development | How do useful methods become implementation, verification, and continuity across a longer task? |
+| Tools for complex work | How can interfaces and reusable building blocks make information, choices, and outcomes easier to understand? |
 
 ## Featured public work
 
 ### Epistemic Skills
 
-Reusable methods for AI agents to investigate failures, examine consequential decisions, verify outcomes, and preserve reasoning. A shared usage guide connects sixteen disciplines, with practical examples and explicit stopping points.
+Reusable methods for AI agents to investigate failures, examine consequential decisions, verify outcomes, and preserve reasoning. A shared usage guide covers the sixteen disciplines, with practical examples and explicit stopping points.
 
 Start with the [README](https://github.com/ZMS-Labs/epistemic-skills#readme), see a [worked example](https://github.com/ZMS-Labs/epistemic-skills/wiki/Workflow-Recipes), or inspect the [design rationale](https://github.com/ZMS-Labs/epistemic-skills/wiki/Design-Rationale) and [evaluation evidence](https://github.com/ZMS-Labs/epistemic-skills/wiki/Testing-and-Evaluations).
 
 ### Product design, implementation, and evidence
 
-The [full showcase](https://zms-labs.github.io/showcase/) connects selected projects to the questions, tradeoffs, and artifacts behind them.
+The [full showcase](https://zms-labs.github.io/showcase/) presents selected projects with the questions, tradeoffs, and artifacts behind them.
 
 | Project | Explore |
 |---|---|
-| [**Steno**](https://zms-labs.github.io/showcase/case-studies/steno/) | An experimental contract workstation: an archived workspace prototype, an implemented assayer-style evidence emblem system and separate recorded drafting checks |
-| [**Epistemic Skills**](https://zms-labs.github.io/showcase/case-studies/epistemic-skills/) | Public reasoning methods with worked examples and evaluation boundaries |
-| [**Gridiron**](https://zms-labs.github.io/showcase/case-studies/gridiron/) | An event-led commentary research application: a synthetic replay and a reviewed source download |
-| [**Krewcible**](https://zms-labs.github.io/showcase/case-studies/krewcible/) | A creative checkpoint editor with authentic component captures, a captioned recording, and visible, editable choices |
-| [**Fleet Orchestrator**](https://zms-labs.github.io/showcase/case-studies/fleet-orchestrator/) | An operator workspace for coordinating agents: authentic cockpit and glyph design, a coordination-to-runtime explanation and a tested review gate |
-| [**SaveBench**](https://zms-labs.github.io/showcase/case-studies/savebench/) | Game-world factory design and measurement: an original challenge and comparison prototype, a synthetic navigation recording and a separate historical measurement case |
-| [**Neuraxic**](https://zms-labs.github.io/showcase/case-studies/neuraxic/) | An idea-first authoring workspace: original interface views and fictional navigation |
-| [**Enaction**](https://zms-labs.github.io/showcase/case-studies/enaction/) | An exploration of role and memory boundaries: explicit fictional-role selection and tested protection of the project owner's record |
-| [**ZMS Canvas**](https://zms-labs.github.io/showcase/case-studies/zms-canvas/) | Notebook recovery and conflicting revisions in a public PenEcho fork, with upstream attribution |
-| [**Poiesis**](https://zms-labs.github.io/showcase/case-studies/poiesis/) | A shared generation service: returned-artifact identity, explicit retention and prompt-custody boundaries, backed by eight focused tests |
+| [Steno](https://zms-labs.github.io/showcase/case-studies/steno/) | An experimental contract workstation: an archived workspace prototype, an implemented assayer-style evidence emblem system and separate recorded drafting checks |
+| [Epistemic Skills](https://zms-labs.github.io/showcase/case-studies/epistemic-skills/) | Public reasoning methods with worked examples and evaluation boundaries |
+| [Gridiron](https://zms-labs.github.io/showcase/case-studies/gridiron/) | An event-led commentary research application: a synthetic replay and a reviewed source download |
+| [Krewcible](https://zms-labs.github.io/showcase/case-studies/krewcible/) | A creative checkpoint editor with authentic component captures, a captioned recording, and visible, editable choices |
+| [Fleet Orchestrator](https://zms-labs.github.io/showcase/case-studies/fleet-orchestrator/) | An operator workspace for coordinating agents: authentic cockpit and glyph design, a coordination-to-runtime explanation and a tested review gate |
+| [SaveBench](https://zms-labs.github.io/showcase/case-studies/savebench/) | Game-world factory design and measurement: an original challenge and comparison prototype, a synthetic navigation recording and a separate historical measurement case |
+| [Neuraxic](https://zms-labs.github.io/showcase/case-studies/neuraxic/) | An idea-first authoring workspace: original interface views and fictional navigation |
+| [Enaction](https://zms-labs.github.io/showcase/case-studies/enaction/) | An exploration of role and memory boundaries: explicit fictional-role selection and tested protection of the project owner's record |
+| [ZMS Canvas](https://zms-labs.github.io/showcase/case-studies/zms-canvas/) | Notebook recovery and conflicting revisions in a public PenEcho fork, with upstream attribution |
+| [Poiesis](https://zms-labs.github.io/showcase/case-studies/poiesis/) | A shared generation service: returned-artifact identity, explicit retention and prompt-custody boundaries, backed by eight focused tests |
 
 The case studies distinguish prototypes, component studies, and observed results. Steno, Krewcible, Fleet Orchestrator, SaveBench, Neuraxic, Enaction and Poiesis share selected public artifacts while their application source remains private. [Evidence and attribution](https://zms-labs.github.io/showcase/evidence.html) explain the scope and AI assistance behind the work.
 
-[About this work](https://zms-labs.github.io/showcase/about.html) explains direction and assistance. [Supporting work](https://zms-labs.github.io/showcase/more-work.html) connects public adaptations, documentation and upstream provenance.
+[About this work](https://zms-labs.github.io/showcase/about.html) explains direction and assistance. [Supporting work](https://zms-labs.github.io/showcase/more-work.html) gathers public adaptations, documentation and upstream provenance.
 
 ## What to expect
 
-**Clear purpose.** Documentation should explain what a project does, who it serves, and what is outside its scope.
+Documentation should explain what a project does, who it serves, and what is outside its scope.
 
-**Inspectable claims.** Implemented behavior, experimental work, and unverified outcomes should be distinguishable. Evidence belongs near the claim it supports.
+Implemented behavior, experimental work, and unverified outcomes should be distinguishable. Evidence belongs near the claim it supports.
 
-**Useful continuity.** Another reader should be able to find the starting point, understand the tradeoffs, and identify the checks relevant to a change.
+Another reader should be able to find the starting point, understand the tradeoffs, and identify the checks relevant to a change.
 
-This profile highlights selected public work. Each repository documents its own status, limitations, licensing, and relationship to upstream projects.
+This profile shows a selection of the public work. Each repository documents its own status, limitations, licensing, and relationship to upstream projects.
 
 For questions or contributions, start with the relevant repository's README and contribution guide. [Shared documentation principles](https://github.com/ZMS-Labs/.github/blob/main/docs/documentation-standard.md) describe the common reading experience.
