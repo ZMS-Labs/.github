@@ -1,18 +1,10 @@
 # ZMS Labs public profile and shared guidance
 
-<details>
-<summary>Repository status</summary>
-
 <!-- ZMS-ESTATE:BEGIN -->
 
-> **Obligation:** `none` · **Stage:** `building` · **Load-bearing:** `unknown — not yet observed`
-> **Purpose:** `configuration`
-> **Canonical for:** organization-public-profile
-> Stage: building — profile and shared guidance under active development.
+Status: In development.
 
 <!-- ZMS-ESTATE:END -->
-
-</details>
 
 This repository contains the [ZMS Labs organization profile](profile/README.md) and public contribution guidance. The profile appears on the organization's GitHub Overview page.
 
@@ -20,10 +12,10 @@ This repository contains the [ZMS Labs organization profile](profile/README.md) 
 |---|---|
 | [Organization profile](profile/README.md) | Introduction and selected public work |
 | [Documentation standard](docs/documentation-standard.md) | A consistent reading experience across different kinds of projects |
-| [Visual documentation review](docs/visual-documentation-review.md) | Accurate diagrams, authentic captures, excellent presentation and scoped review |
+| [Visual documentation review](docs/visual-documentation-review.md) | What a diagram, chart or screenshot has to get right before it is published |
 | [Contributing](CONTRIBUTING.md) | Shared contribution guidance where a project supplies no override |
-| [Support](SUPPORT.md) | Where to ask a useful, appropriately scoped question |
-| [Workflow templates](workflow-templates/README.md) | Portable starter workflows offered through GitHub |
+| [Support](SUPPORT.md) | Where to ask a question, and how to report a vulnerability privately |
+| [Workflow templates](workflow-templates/README.md) | A starter secret-scan workflow offered through GitHub |
 | [Profile artwork](profile/assets/README.md) | Source, licensing, and reproducible assets |
 
 Project-specific documentation and contribution policies take precedence. A repository's license applies to that repository; this repository does not supply a default license for other projects.
