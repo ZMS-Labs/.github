@@ -1,17 +1,17 @@
-# A consistent documentation experience
+# ZMS Labs documentation standard
 
-Consistency means a reader can find the same essential answers across projects. The amount of detail, terminology, and visual identity should suit the project.
+Whichever ZMS Labs repository you open, its README should answer the same basic questions. How much detail it gives, the terms it uses and how it looks should fit the project.
 
 ## The README answers the first questions
 
-A useful README establishes:
+A useful README answers:
 
-1. **Purpose and audience:** what the project does, the problem it addresses, and its scope.
-2. **Current state:** released, experimental, a fork, a mirror, or archived; material limitations and the authority for status claims.
-3. **A safe starting point:** prerequisites and a supported first task, or an orientation guide when running the project is not appropriate.
-4. **How to check a change:** relevant development and verification instructions, with the limits of those checks made clear.
-5. **Where to go next:** a short map to the authoritative usage, design, architecture, operation, or evidence guides.
-6. **Participation and licensing:** contribution instructions, upstream relationships, and the license that actually applies.
+1. Purpose and audience: what the project does, the problem it addresses, and its scope.
+2. Current state: released, experimental, a fork, a mirror or archived, plus the main limitations and where the status information comes from.
+3. A safe starting point: prerequisites and a supported first task, or an orientation guide when running the project is not appropriate.
+4. How to check a change: relevant development and verification instructions, with the limits of those checks made clear.
+5. Where to go next: a short map to the authoritative usage, design, architecture, operation, or evidence guides.
+6. Participation and licensing: contribution instructions, upstream relationships, and the license that actually applies.
 
 Use a clear title, a concrete opening paragraph, and descriptive links. Add a short navigation section when the README is long. Keep extensive runbooks and historical records behind those links.
 
@@ -21,9 +21,9 @@ Use a clear title, a concrete opening paragraph, and descriptive links. Add a sh
 |---|---|
 | Application or library | Supported use, installation or local development, an example, and verification |
 | Experimental project | What exists today, what is planned, how to exercise the implemented slice, and known limits |
-| Infrastructure or configuration | Authority, safe orientation, change and validation paths, and links to operational runbooks |
+| Infrastructure or configuration | What this repository is the source of truth for, how to look around without changing anything, how to make and check a change, and links to the step-by-step operating guides |
 | Research or methods | The question, assumptions, artifacts, evidence limits, and how to reproduce or evaluate a claim |
-| Skills or agent workflows | When to use the method, required context, useful output, stopping point, and host-specific limits |
+| Skills or agent workflows | When to use the method, what context it needs, what useful output looks like, when to stop, and limits that depend on which AI tool runs it |
 | Fork | Upstream attribution, the local purpose and difference, and where issues or contributions belong |
 | Mirror or archive | What is preserved, the source or successor, and whether changes are accepted |
 | Documentation or showcase | Reading paths and how to maintain the material; no invented install or runtime instructions |
@@ -41,15 +41,16 @@ An empty or archived repository may have a recorded documentation exception inst
 
 ## Written voice
 
-Identity-bearing surfaces (the organization profile, repository README openings, the portfolio About text, featured-project leads) are written or edited by the operator in their own words. Assistance may draft them; the operator's phrasing is what ships.
+Identity-bearing surfaces are the organization profile, the openings of featured repository READMEs, the showcase About text and featured-project leads. AI tools may draft them. Zach Stern reviews every change to them before it merges and rewrites or approves each first-person sentence, since those sentences speak for him. Process and governance pages, such as Support, Contributing and this standard, use a neutral voice and don't need his phrasing. The one first-person line on them is his contact line at the end of Support.
 
-- Each such surface carries at least one sentence only this project could produce: a concrete memory, number, decision, or failure. A sentence that could be pasted onto any other project gets rewritten.
-- Vary headline forms; not every heading is a balanced couplet, and a plain single-line title is fine. Do not repeat one qualification more than once per page; the status table or evidence section carries it.
-- Give a coinage a one-line gloss at first use, on the entry surface that introduces it.
+- Each identity-bearing surface carries at least one sentence only this project could produce: a concrete memory, number, decision, or failure. A sentence that could be pasted onto any other project gets rewritten.
+- Don't repeat a qualification in the same words. Keep a material limit next to each claim it bounds, and let the page's status or evidence section carry the general limit once.
+- Vary headline forms. A plain single-line title is fine.
+- Give a coinage, a term a project made up, a one-line gloss at first use on the entry surface that introduces it.
 
 ## Respect the publication boundary
 
-Public documentation must stand on public, intentionally disclosed information. Do not expose private project names, internal links, machine identities, inventories, network topology, credentials, personal data, or confidential operational details. Prefer generalized explanations and synthetic examples.
+Public documentation must stand on public, intentionally disclosed information. Do not expose the names of private projects that have not been deliberately made public, internal links, machine identities, inventories, network topology, credentials, personal data, or confidential operational details. Prefer generalized explanations and made-up examples.
 
 Private documentation can link to the operational detail its readers need, but the front page should still orient readers before presenting those details. Keep sensitive information in the appropriate controlled source rather than duplicating it.
 
@@ -57,13 +58,7 @@ A decision to change visibility is separate from a documentation improvement. Re
 
 ## Use visuals to explain
 
-Visual communication is part of documentation correctness. Every new or changed visual heading (a heading rendered as an image or banner, not Markdown text), Mermaid graph, flowchart, sequence, chart, badge, screenshot and illustration must have a clear purpose, legibility at destination widths and themes, consistency with the project's own identity, source-backed meaning and an inspected rendered result.
-
-Follow the [visual documentation review standard](visual-documentation-review.md). It requires checking the meaning of labels, arrows, ordering, grouping, color and status; distinguishing concepts, plans, implementation and observed results; and reviewing the intended rendering, text equivalents, narrow-screen readability and supported themes. Preserve authentic product demonstrations and each project's own design authority. Use generated artwork for clearly identified illustrations, not fabricated evidence or exact technical diagrams.
-
-Record the material sources, checks and remaining limits in the existing review or design record. One bounded review and affected rechecks are sufficient; no mandatory independent-model panel is introduced. A passing Mermaid render establishes syntax/rendering, not the truth of the diagram. Existing historical visuals are not certified merely because the repository adopts this standard.
-
-Use badges only when they point to meaningful, maintained information. Avoid decorative scores, unsupported maturity labels and claims of universal reliability. The quality bar applies to private as well as public documentation; privacy and publication boundaries remain unchanged.
+For new or changed diagrams, screenshots, charts, badges and illustrations, follow the [visual documentation review](visual-documentation-review.md). Check the rendering at the widths and in the themes the page supports, and use generated artwork only for labeled illustrations, never as evidence or as an exact technical diagram.
 
 ## Verify and maintain
 
@@ -73,4 +68,6 @@ Update documentation with the behavior it describes. A short, accurate guide is 
 
 ## Review cadence
 
-Give public-facing pull requests one automated-reviewer round, and answer its findings in-thread before merge: fixed, or explicitly disagreed with. Never resolve a finding without a reply. The public surfaces also get a periodic external critical review, roughly quarterly, reusing the showcase review packet pattern and its existing rubric.
+Public-facing pull requests get one round of automated review. Each finding gets a reply in its thread, either fixed or declined with a reason. A finding that arrives after a merge still gets a reply, and any fix goes in a follow-up pull request. Never resolve a finding without a reply.
+
+The plan is to have the public pages critically reviewed about once a quarter. The first review ran in September 2026.
