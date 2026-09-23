@@ -57,14 +57,23 @@ class Drawing:
         (ROOT / name).write_text('\n'.join(self.parts) + '\n</svg>\n', encoding='utf-8', newline='\n')
 
 
+# The tagline, set on two lines in both compositions. The lettering uses a
+# typographic apostrophe; the title, description and README alt text use the
+# plain one.
+TAGLINE = ('What I’ve been building with AI,', 'and how it’s actually going.')
+TITLE = "ZMS Labs: what I've been building with AI, and how it's actually going"
+WORDMARK_DESC = ('The ZMS Labs wordmark and the line "What I\'ve been building with AI, '
+                 'and how it\'s actually going."')
+
+
 def mastheads():
-    d = Drawing(1280, 500, 'ZMS Labs — thoughtful tools, work you can inspect',
-                'Independent work in AI-assisted software, reasoning methods, and tools for complex work. Abstract lines connect reasoning, tools, and development; this is conceptual artwork.')
+    d = Drawing(1280, 500, TITLE,
+                WORDMARK_DESC + ' Abstract lines connect reasoning, tools and development; this is conceptual artwork.')
     d.text('ZMS', 62, 174, 162, weight=760, width=93)
     end = d.text('LABS', 65, 286, 108, weight=650, width=93)
     d.rect(65 + end + 21, 265, 20, 20, ORANGE)
-    d.text('Thoughtful tools.', 66, 358, 37, weight=580)
-    d.text('Work you can inspect.', 66, 403, 29, MUTED)
+    d.text(TAGLINE[0], 66, 358, 37, weight=580)
+    d.text(TAGLINE[1], 66, 403, 29, MUTED)
     # Three areas connect conceptually, without implying a mandatory sequence.
     d.path('M808 125 H896 Q936 125 936 165 V233', LINE, 2)
     d.path('M808 337 H896 Q936 337 936 297 V241', LINE, 2)
@@ -81,19 +90,16 @@ def mastheads():
     d.path('M66 438 H1214', LINE, 1)
     d.text('Independent exploration / Public work', 66, 466, 18, MUTED)
     d.save('zms-labs.svg')
-    m = Drawing(640, 540, 'ZMS Labs — thoughtful tools, work you can inspect',
-                'Independent work in AI-assisted software, reasoning methods, and tools for complex work. A compact version of the conceptual masthead; the diagram reduces to connecting dots.')
+    # The phone composition keeps only the wordmark and the tagline, so the
+    # first screen on a phone reaches the README text sooner. The first
+    # tagline line is about 525 units wide, which fits the 640-unit canvas.
+    m = Drawing(640, 424, TITLE,
+                WORDMARK_DESC + ' A compact version of the masthead for narrow screens.')
     m.text('ZMS', 42, 147, 139, weight=760, width=93)
     end = m.text('LABS', 44, 252, 100, weight=650, width=93)
     m.rect(44+end+18, 233, 18, 18, ORANGE)
-    m.text('Thoughtful tools.', 44, 323, 37, weight=580)
-    m.text('Work you can inspect.', 44, 368, 29, MUTED)
-    m.path('M50 435 H209 M50 466 H209 Q238 466 238 437 H555', LINE, 2)
-    m.path('M50 435 H555', ORANGE, 2)
-    m.circle(50, 435, 7, INK, ORANGE, 2)
-    m.circle(238, 435, 7, ORANGE)
-    m.circle(555, 435, 9, ORANGE)
-    m.text('Independent exploration / Public work', 44, 511, 19, MUTED)
+    m.text(TAGLINE[0], 44, 323, 37, weight=580)
+    m.text(TAGLINE[1], 44, 368, 29, MUTED)
     m.save('zms-labs-mobile.svg')
 
 

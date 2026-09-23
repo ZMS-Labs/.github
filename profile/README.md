@@ -1,61 +1,53 @@
 <picture>
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ZMS-Labs/.github/main/profile/assets/zms-labs-mobile.svg">
-  <img src="https://raw.githubusercontent.com/ZMS-Labs/.github/main/profile/assets/zms-labs.svg" alt="ZMS Labs. Thoughtful tools. Work you can inspect." width="1280">
+  <img src="https://raw.githubusercontent.com/ZMS-Labs/.github/main/profile/assets/zms-labs.svg" alt="ZMS Labs. What I've been building with AI, and how it's actually going." width="1280">
 </picture>
 
-# ZMS Labs
+I'm [Zach Stern](https://github.com/SternOne), and ZMS Labs is my workshop. I work with contracts. Steno, the contract workstation here, starts from a question like who needs to be told when a vendor reports a data incident. The other projects come from writing, games and trying to get AI tools to follow through on a task. These are personal projects.
 
-ZMS Labs is the personal workshop of Zach Stern: independent work in AI-assisted software, reasoning methods, and tools for complex work.
+AI tools write the code. I decide what each project is for and check what comes back.
 
-The work explores how software and AI can help people investigate problems, make informed decisions, and carry useful work through to completion. It pairs practical implementation with the reasoning, documentation, and evidence needed to understand it.
+I wanted one place to show anyone what I've been up to with AI, without overstating any of it.
 
-[Explore the full showcase](https://zms-labs.github.io/showcase/) · [Inspect the source](https://github.com/ZMS-Labs/showcase#readme) · [Browse public repositories](https://github.com/orgs/ZMS-Labs/repositories?type=public)
+[Start with the case studies](https://zms-labs.github.io/showcase/) · [Browse the public repositories](https://github.com/orgs/ZMS-Labs/repositories?type=public)
 
-## Areas of exploration
+## The projects
 
-| Focus | The question behind the work |
+### Selected work
+
+| What I wanted | Shown as |
 |---|---|
-| Reasoning and decision support | How can an agent investigate carefully, compare alternatives, and recognize the limits of its evidence? |
-| AI-assisted development | How do useful methods become implementation, verification, and continuity across a longer task? |
-| Tools for complex work | How can interfaces and reusable building blocks make information, choices, and outcomes easier to understand? |
+| [Steno](https://zms-labs.github.io/showcase/case-studies/steno/): a way to ask what a contract would do in a particular situation, then follow the answer back to the language that supports it. | Prototype |
+| [SaveBench](https://zms-labs.github.io/showcase/case-studies/savebench/): to see how AI models would approach building a factory in the game Satisfactory, and whether that factory would actually work. | Recorded experiment |
+| [Epistemic Skills](https://zms-labs.github.io/showcase/case-studies/epistemic-skills/): AI agents (AI tools that carry out a multi-step task on their own) that investigate problems properly and check whether their changes worked. | Public source |
+| [Fleet Orchestrator](https://zms-labs.github.io/showcase/case-studies/fleet-orchestrator/): to keep track of several coding agents without losing their work between sessions, and to see where I need to step in. | Component study |
 
-## Featured public work
+### Five more projects
 
-### Epistemic Skills
-
-Reusable methods for AI agents to investigate failures, examine consequential decisions, verify outcomes, and preserve reasoning. A shared usage guide covers the sixteen disciplines, with practical examples and explicit stopping points.
-
-Start with the [README](https://github.com/ZMS-Labs/epistemic-skills#readme), see a [worked example](https://github.com/ZMS-Labs/epistemic-skills/wiki/Workflow-Recipes), or inspect the [design rationale](https://github.com/ZMS-Labs/epistemic-skills/wiki/Design-Rationale) and [evaluation evidence](https://github.com/ZMS-Labs/epistemic-skills/wiki/Testing-and-Evaluations).
-
-### Product design, implementation, and evidence
-
-The [full showcase](https://zms-labs.github.io/showcase/) presents selected projects with the questions, tradeoffs, and artifacts behind them.
-
-| Project | Explore |
+| What I wanted | Shown as |
 |---|---|
-| [Steno](https://zms-labs.github.io/showcase/case-studies/steno/) | An experimental contract workstation: an archived workspace prototype, an implemented assayer-style evidence emblem system and separate recorded drafting checks |
-| [Epistemic Skills](https://zms-labs.github.io/showcase/case-studies/epistemic-skills/) | Public reasoning methods with worked examples and evaluation boundaries |
-| [Gridiron](https://zms-labs.github.io/showcase/case-studies/gridiron/) | An event-led commentary research application: a synthetic replay and a reviewed source download |
-| [Krewcible](https://zms-labs.github.io/showcase/case-studies/krewcible/) | A creative checkpoint editor with authentic component captures, a captioned recording, and visible, editable choices |
-| [Fleet Orchestrator](https://zms-labs.github.io/showcase/case-studies/fleet-orchestrator/) | An operator workspace for coordinating agents: authentic cockpit and glyph design, a coordination-to-runtime explanation and a tested review gate |
-| [SaveBench](https://zms-labs.github.io/showcase/case-studies/savebench/) | Game-world factory design and measurement: an original challenge and comparison prototype, a synthetic navigation recording and a separate historical measurement case |
-| [Neuraxic](https://zms-labs.github.io/showcase/case-studies/neuraxic/) | An idea-first authoring workspace: original interface views and fictional navigation |
-| [Enaction](https://zms-labs.github.io/showcase/case-studies/enaction/) | An exploration of role and memory boundaries: explicit fictional-role selection and tested protection of the project owner's record |
-| [ZMS Canvas](https://zms-labs.github.io/showcase/case-studies/zms-canvas/) | Notebook recovery and conflicting revisions in a public PenEcho fork, with upstream attribution |
-| [Poiesis](https://zms-labs.github.io/showcase/case-studies/poiesis/) | A shared generation service: returned-artifact identity, explicit retention and prompt-custody boundaries, backed by eight focused tests |
+| [Neuraxic](https://zms-labs.github.io/showcase/case-studies/neuraxic/): a place where a story's prose, people, places and rules can develop together, so I can try another version without losing what I've already decided. | Interface study |
+| [Krewcible](https://zms-labs.github.io/showcase/case-studies/krewcible/): to shape a character through choices I can change and recombine, and see each change before anything is generated. | Component study |
+| [Gridiron](https://zms-labs.github.io/showcase/case-studies/gridiron/): a broadcast companion for a football video game, with commentary that follows what happened on the field. | Public source |
+| [Enaction](https://zms-labs.github.io/showcase/case-studies/enaction/): characters in a story who develop through interaction without their experiences being assigned to the person playing them. | Component study |
+| [Poiesis](https://zms-labs.github.io/showcase/case-studies/poiesis/): a generation service that applications can share without losing track of what came back or keeping it forever. | Component study |
 
-The case studies distinguish prototypes, component studies, and observed results. Steno, Krewcible, Fleet Orchestrator, SaveBench, Neuraxic, Enaction and Poiesis share selected public artifacts while their application source remains private. [Evidence and attribution](https://zms-labs.github.io/showcase/evidence.html) explain the scope and AI assistance behind the work.
+## Where things stand
 
-[About this work](https://zms-labs.github.io/showcase/about.html) explains direction and assistance. [Supporting work](https://zms-labs.github.io/showcase/more-work.html) gathers public adaptations, documentation and upstream provenance.
+I want every page here to show whether you're looking at an early design, a working part or a recorded result, with the evidence next to the claim. Epistemic Skills is a public repository, and Gridiron's source is a download on its case study. The other seven projects keep their source private, so their case studies share screens, recordings and test results instead, such as eight tests on Poiesis's returned files, expiry and stored prompts. The [Evidence page](https://zms-labs.github.io/showcase/evidence.html) says where each project stands and when it was checked.
 
-## What to expect
+[![Steno's archived prototype showing a map of a made-up services agreement, with its incident-notice section at the center, linked to the notice, indemnity and liability sections.](https://raw.githubusercontent.com/ZMS-Labs/showcase/main/docs/assets/steno/matter-map.png)](https://zms-labs.github.io/showcase/case-studies/steno/)
 
-Documentation should explain what a project does, who it serves, and what is outside its scope.
+Steno's archived prototype, showing how one made-up agreement's sections connect.
 
-Implemented behavior, experimental work, and unverified outcomes should be distinguishable. Evidence belongs near the claim it supports.
+## Epistemic Skills
 
-Another reader should be able to find the starting point, understand the tradeoffs, and identify the checks relevant to a change.
+Epistemic means concerned with what we know and how we know it. Epistemic Skills is a usage guide and sixteen methods an agent can load when a task calls for one, such as investigating a failure, comparing options or checking whether a change worked. Version 7.0.0, the eleventh release since July, came out on 19 September 2026.
 
-This profile shows a selection of the public work. Each repository documents its own status, limitations, licensing, and relationship to upstream projects.
+Start with the [README](https://github.com/ZMS-Labs/epistemic-skills#readme), read [three worked examples](https://github.com/ZMS-Labs/epistemic-skills/wiki/Workflow-Recipes), or see the [design rationale](https://github.com/ZMS-Labs/epistemic-skills/wiki/Design-Rationale) and [what has been tested so far](https://github.com/ZMS-Labs/epistemic-skills/wiki/Testing-and-Evaluations).
 
-For questions or contributions, start with the relevant repository's README and contribution guide. [Shared documentation principles](https://github.com/ZMS-Labs/.github/blob/main/docs/documentation-standard.md) describe the common reading experience.
+## More
+
+[About](https://zms-labs.github.io/showcase/about.html) explains how I work with AI tools. [More work](https://zms-labs.github.io/showcase/more-work.html) covers other things I'm working on, including my public fork of OpenClaw, with the original project credited.
+
+Questions and conversations are welcome through [my GitHub profile](https://github.com/SternOne).

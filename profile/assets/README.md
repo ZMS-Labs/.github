@@ -1,6 +1,6 @@
 # Showcase artwork
 
-The mastheads are original vector compositions extending the visual family of [Epistemic Skills](https://github.com/ZMS-Labs/epistemic-skills). The connecting lines are conceptual artwork. They do not depict infrastructure, a network, or an operational workflow.
+The mastheads are original vector compositions extending the visual family of [Epistemic Skills](https://github.com/ZMS-Labs/epistemic-skills). The connecting lines are conceptual artwork. They do not depict infrastructure, a network, or an operational workflow. Both carry the line "What I've been building with AI, and how it's actually going," set on two lines. The phone version, `zms-labs-mobile.svg`, keeps only the wordmark and that line so the profile text starts sooner on a small screen.
 
 Rebuild with Python and `fonttools`:
 
@@ -16,7 +16,7 @@ SVG lettering is converted to paths. Reading the README requires no font install
 
 ## Organization avatar candidates
 
-`avatar-candidates/` holds three candidate marks for the GitHub organization avatar, derived from the masthead vocabulary above — ink `#152c35`, warm white `#f5f3ed`, accent orange `#ffac70`, Archivo weight 760. Each candidate is a 512x512 SVG with a rasterized 512x512 PNG, because GitHub avatar upload requires a raster format:
+`avatar-candidates/` holds three candidate marks for the GitHub organization avatar. They use the masthead's palette and type: ink `#152c35`, warm white `#f5f3ed`, accent orange `#ffac70` and Archivo weight 760. Each candidate is a 512x512 SVG with a rasterized 512x512 PNG, because GitHub avatar upload requires a raster format:
 
 | Candidate | Mark |
 |---|---|
@@ -36,4 +36,4 @@ python profile/assets/avatar-candidates/generate_avatar_candidates.py
 
 Adding `--preview DIR` also writes 32 px renders, plus a magnified view of those exact pixels, for legibility checks.
 
-Changing these repository assets does not update the GitHub organization avatar. The selected PNG must be uploaded separately in GitHub organization settings. An authorized agent with authenticated access can perform that upload through the UI; this generator only creates the image files.
+Changing these repository assets does not update the GitHub organization avatar. The selected PNG must be uploaded separately in GitHub organization settings; this generator only creates the image files.
