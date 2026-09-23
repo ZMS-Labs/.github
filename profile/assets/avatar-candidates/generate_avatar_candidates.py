@@ -42,7 +42,7 @@ class Candidate(Drawing):
 
 def squares():
     """Candidate 1: the 2x2 squares glyph, one square orange, rounded, generous margins."""
-    d = Candidate(SIZE, SIZE, 'ZMS Labs avatar candidate 1 — squares glyph',
+    d = Candidate(SIZE, SIZE, 'ZMS Labs avatar candidate 1: squares glyph',
                   'Four rounded squares in a 2x2 grid on the ink field: three warm white, one accent orange.')
     margin, gap = 96, 48
     sq = (SIZE - 2 * margin - gap) // 2  # 136
@@ -55,7 +55,7 @@ def squares():
 
 def zms_lockup():
     """Candidate 2: square ZMS lockup, Archivo 760 outlined paths, one orange square accent."""
-    d = Candidate(SIZE, SIZE, 'ZMS Labs avatar candidate 2 — ZMS lockup',
+    d = Candidate(SIZE, SIZE, 'ZMS Labs avatar candidate 2: ZMS lockup',
                   'ZMS letterforms in Archivo weight 760 as outlined paths on the ink field, '
                   'with one accent orange square seated on the baseline after the letters.')
     weight, width = 760, 93  # masthead ZMS instance
@@ -76,7 +76,7 @@ def zms_lockup():
 
 def masthead_crop():
     """Candidate 3: crop-style mark echoing the masthead connectors."""
-    d = Candidate(SIZE, SIZE, 'ZMS Labs avatar candidate 3 — masthead crop',
+    d = Candidate(SIZE, SIZE, 'ZMS Labs avatar candidate 3: masthead crop',
                   'A crop-style mark echoing the masthead connectors: ink field, one muted connector '
                   'line broken by a small accent orange square at the center.')
     y, stroke = SIZE / 2, 36
