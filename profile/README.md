@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/ZMS-Labs/.github/main/profile/assets/zms-labs.svg" alt="ZMS Labs. What I've been building with AI, and how it's actually going." width="1280">
 </picture>
 
-I'm [Zach Stern](https://github.com/SternOne), and ZMS Labs is my workshop. I work with contracts. Steno, the contract workstation here, starts from a question like who needs to be told when a vendor reports a data incident. The other projects come from writing, games and trying to get AI tools to follow through on a task. These are personal projects.
+I'm [Zach Stern](https://github.com/SternOne), and ZMS Labs is my workshop. I work with contracts. Interleaf, the contract workstation here, starts from a question like who needs to be told when a vendor reports a data incident. The other projects come from writing, games and trying to get AI tools to follow through on a task. These are personal projects.
 
 AI tools write the code. I decide what each project is for and check what comes back.
 
@@ -17,7 +17,7 @@ I wanted one place to show anyone what I've been up to with AI, without overstat
 
 | What I wanted | Shown as |
 |---|---|
-| [Steno](https://sternone.net/case-studies/steno/): a way to ask what a contract would do in a particular situation, then follow the answer back to the language that supports it. | Prototype |
+| [Interleaf](https://sternone.net/case-studies/interleaf/): a way to ask what a contract would do in a particular situation, then follow the answer back to the language that supports it. | Prototype |
 | [SaveBench](https://sternone.net/case-studies/savebench/): to see how AI models would approach building a factory in the game Satisfactory, and whether that factory would actually work. | Recorded experiment |
 | [Epistemic Skills](https://sternone.net/case-studies/epistemic-skills/): AI agents (AI tools that carry out a multi-step task on their own) that investigate problems properly and check whether their changes worked. | Public source |
 | [Fleet Orchestrator](https://sternone.net/case-studies/fleet-orchestrator/): to keep track of several coding agents without losing their work between sessions, and to see where I need to step in. | Component study |
@@ -36,9 +36,9 @@ I wanted one place to show anyone what I've been up to with AI, without overstat
 
 I want every page here to show whether you're looking at an early design, a working part or a recorded result, with the evidence next to the claim. Epistemic Skills is a public repository, and Gridiron's source is a download on its case study. The other seven projects keep their source private, so their case studies share screens, recordings and test results instead, such as eight tests on Poiesis's returned files, expiry and stored prompts. The [Evidence page](https://sternone.net/evidence.html) says where each project stands and when it was checked.
 
-[![Steno's archived prototype showing a map of a made-up services agreement, with its incident-notice section at the center, linked to the notice, indemnity and liability sections.](https://raw.githubusercontent.com/ZMS-Labs/showcase/main/docs/assets/steno/matter-map.png)](https://sternone.net/case-studies/steno/)
+[![Interleaf's archived prototype showing a map of a made-up services agreement, with its incident-notice section at the center, linked to the notice, indemnity and liability sections.](https://raw.githubusercontent.com/ZMS-Labs/showcase/main/docs/assets/interleaf/matter-map.png)](https://sternone.net/case-studies/interleaf/)
 
-Steno's archived prototype, showing how one made-up agreement's sections connect.
+Interleaf's archived prototype, showing how one made-up agreement's sections connect.
 
 ## Epistemic Skills
 
